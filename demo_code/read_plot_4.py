@@ -3,7 +3,7 @@ import serial as ser
 import matplotlib.pyplot as plt
 import numpy as np
 
-s1 = ser.Serial('/dev/ttyACM0', 115000)
+s1 = ser.Serial('/dev/ttyACM0', 115200)
 plt.close('all')
 #plt.figure()
 figure, axis = plt.subplots(2, 2)
