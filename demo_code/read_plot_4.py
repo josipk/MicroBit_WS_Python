@@ -47,19 +47,19 @@ def main():
 				
 				axis[0, 0].clear()
 				axis[0, 0].plot(x, temp1)
-				axis[0, 0].set_title("Temperature 1")
+				axis[0, 0].set_title("Temperature Probe")
 		  
 				axis[0, 1].clear()
 				axis[0, 1].plot(x, temp2)
-				axis[0, 1].set_title("Temperature 2")
+				axis[0, 1].set_title("DHT11 Temperature")
 				  
 				axis[1, 0].clear()
 				axis[1, 0].plot(x, hum2)
-				axis[1, 0].set_title("Humidity")
+				axis[1, 0].set_title("DHT11 Humidity")
 				  
 				axis[1, 1].clear()
 				axis[1, 1].plot(x, air)		
-				axis[1, 1].set_title("AIR")
+				axis[1, 1].set_title("AIR Quality")
 
 
 				axis[0, 0].set_ylim([-20, 80])
